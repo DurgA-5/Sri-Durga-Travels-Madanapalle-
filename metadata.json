@@ -1,0 +1,7 @@
+{
+  "name": "Sri Durga Travels",
+  "description": "A premium travel service website for Sri Durga Travels, Madanapalle, featuring AI-powered booking assistance and seasonal travel packages.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

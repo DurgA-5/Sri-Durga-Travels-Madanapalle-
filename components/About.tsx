@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-slate-50">
               <img
-                src="https://images.unsplash.com/photo-1594145064047-b8923a9d945a?auto=format&fit=crop&q=80&w=1000"
+                src="https://lh3.googleusercontent.com/p/AF1QipPJ5LZZswAv5cZLJlbP0XkDKmx7arjlTjqMEwzX=w141-h176-n-k-no-nu"
                 alt="Decorated Travel Groups"
                 className="w-full h-full object-cover"
               />

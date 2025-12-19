@@ -24,7 +24,7 @@ export const PACKAGES: Package[] = [
     id: 'p1', 
     name: 'Tirupati Tirumala', 
     category: 'Pilgrimage', 
-    image: 'https://images.unsplash.com/photo-1620393470010-fd6298492080?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1S185C6gUp1q2TAt_RqFGEfRtcR4hR96__w&s',
     description: 'Special Darshan packages to the abode of Lord Venkateswara.',
     location: 'Tirumala, Andhra Pradesh'
   },
@@ -32,7 +32,7 @@ export const PACKAGES: Package[] = [
     id: 'p_sabarimala', 
     name: 'Sabarimala Yatra', 
     category: 'Pilgrimage', 
-    image: 'https://images.unsplash.com/photo-1621619864295-824df4136e05?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://www.indiantempletour.com/wp-content/uploads/2022/08/Sabarimala-Temple.jpg',
     description: 'Dedicated seasonal trips for Ayyappa Swamy devotees.',
     location: 'Pathanamthitta, Kerala'
   },
@@ -40,7 +40,7 @@ export const PACKAGES: Package[] = [
     id: 'p_arunachalam', 
     name: 'Arunachalam Giri Pradakshina', 
     category: 'Pilgrimage', 
-    image: 'https://images.unsplash.com/photo-1628130831006-037340056976?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://bunny-wp-pullzone-n9klvfg340.b-cdn.net/wp-content/uploads/2023/04/Arunachalam-Giri-PRadakshinam-2023-1.jpg',
     description: 'Experience the spiritual walk around the holy mountain of Shiva.',
     location: 'Tiruvannamalai, Tamil Nadu'
   },
@@ -48,7 +48,7 @@ export const PACKAGES: Package[] = [
     id: 'p_srisailam', 
     name: 'Srisailam Mallikarjuna', 
     category: 'Pilgrimage', 
-    image: 'https://images.unsplash.com/photo-1626270501861-12f386866ecf?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://www.templewalks.com/wp-content/uploads/2025/09/srisailam-mallikarjuna-temple.png',
     description: 'Visit the sacred Jyotirlinga and Shakti Peetha on the Nallamala hills.',
     location: 'Srisailam, Andhra Pradesh'
   },
@@ -56,7 +56,7 @@ export const PACKAGES: Package[] = [
     id: 'p_kanipakam', 
     name: 'Kanipakam Varasiddhi', 
     category: 'Pilgrimage', 
-    image: 'https://images.unsplash.com/photo-1600100397608-f090747e3355?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwx3twOcpyL-qRlbbsTg7P5-MKPIIlpqUhA&s',
     description: 'Seek blessings from Lord Ganesha at the famous self-manifested temple.',
     location: 'Chittoor, Andhra Pradesh'
   },
@@ -64,7 +64,7 @@ export const PACKAGES: Package[] = [
     id: 'p_shirdi', 
     name: 'Shirdi Sai Baba', 
     category: 'Pilgrimage', 
-    image: 'https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://blessingsonthenet.com/img/gallery/aim_bn_1_1308574858.jpg',
     description: 'A spiritual journey to the Samadhi Mandir of Sai Baba.',
     location: 'Shirdi, Maharashtra'
   },
@@ -72,7 +72,7 @@ export const PACKAGES: Package[] = [
     id: 'p_hampi', 
     name: 'Hampi Heritage', 
     category: 'Heritage', 
-    image: 'https://images.unsplash.com/photo-1590050752117-23a9d7fc6f3d?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://revolvingcompass.com/wp/wp-content/uploads/2024/02/VijayaVittala_3.jpg',
     description: 'Explore the ruins of the Vijayanagara Empire and ancient stone temples.',
     location: 'Hampi, Karnataka'
   },

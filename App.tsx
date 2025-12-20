@@ -8,18 +8,22 @@ import Services from './components/Services';
 import Packages from './components/Packages';
 import Seasons from './components/Seasons';
 import Contact from './components/Contact';
+import TripPlanner from './components/TripPlanner';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot';
+import ServiceArea from './components/ServiceArea';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen selection:bg-orange-100 selection:text-orange-600">
+    <div className="min-h-screen selection:bg-sky-100 selection:text-sky-600">
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Fleet />
         <Services />
+        <TripPlanner />
+        <About />
+        <ServiceArea />
+        <Fleet />
         <Packages />
         <Seasons />
         <Contact />

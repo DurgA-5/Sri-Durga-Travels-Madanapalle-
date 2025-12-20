@@ -4,91 +4,88 @@ import { CONTACT_INFO } from '../constants';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-slate-900 text-slate-300 py-20 border-t border-white/5">
+    <footer className="bg-slate-50 pt-24 pb-12 border-t border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          <div className="col-span-1 lg:col-span-1">
-            <span className="text-2xl font-bold text-orange-500 tracking-tight block mb-6">Sri Durga <span className="text-white">Travels</span></span>
-            <p className="text-slate-400 mb-8 max-w-xs">
-              Trusted travel partners based in Madanapalle. Specializing in comfortable, safe, and season-aware group journeys across All Over India.
+          <div className="space-y-6">
+            <div className="flex items-center space-x-3">
+              <div className="w-12 h-8 bg-sky-500 rounded-lg flex items-center justify-center text-white font-black text-[10px] tracking-tight">SDT</div>
+              <span className="text-xl font-bold tracking-tight text-slate-900">
+                Sri Durga <span className="text-sky-500">Travels</span>
+              </span>
+            </div>
+            <p className="text-slate-500 font-medium leading-relaxed">
+              Madanapalle's most trusted travel partner. Providing safe, comfortable, and affordable transportation for over two decades.
             </p>
+            
+            <a 
+              href="https://share.google/DYaARwLNb5PHIqR6y" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center space-x-3 bg-white p-3 rounded-2xl border border-slate-200 shadow-sm hover:border-sky-200 transition-all w-fit group"
+            >
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5FqrS9OkN5XrA5_GXcN7OV-SoLIl0KPwoQ&s" className="w-5 h-5" alt="Google" />
+              <div>
+                <div className="flex text-yellow-400 text-[10px]">★★★★★</div>
+                <div className="text-[9px] font-bold text-slate-400 uppercase tracking-widest group-hover:text-sky-600 transition-colors">Google Verified</div>
+              </div>
+            </a>
+
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-600 transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-600 transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
-              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-400 hover:text-sky-500 transition-colors shadow-sm font-bold">f</a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-400 hover:text-sky-500 transition-colors shadow-sm font-bold">in</a>
             </div>
           </div>
           
           <div>
-            <h4 className="text-white font-bold mb-6">Quick Links</h4>
+            <h4 className="text-slate-900 font-bold mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              <li><a href="#home" className="hover:text-orange-500 transition-colors">Home</a></li>
-              <li><a href="#about" className="hover:text-orange-500 transition-colors">About Us</a></li>
-              <li><a href="#services" className="hover:text-orange-500 transition-colors">Our Services</a></li>
-              <li><a href="#packages" className="hover:text-orange-500 transition-colors">Destinations</a></li>
-              <li><a href="#contact" className="hover:text-orange-500 transition-colors">Book Now</a></li>
+              <li><a href="#home" className="text-slate-500 hover:text-sky-600 font-medium transition-colors">Home</a></li>
+              <li><a href="#services" className="text-slate-500 hover:text-sky-600 font-medium transition-colors">Services</a></li>
+              <li><a href="#fleet" className="text-slate-500 hover:text-sky-600 font-medium transition-colors">Our Fleet</a></li>
+              <li><a href="#planner" className="text-slate-500 hover:text-sky-600 font-medium transition-colors">Trip Planner</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-slate-900 font-bold mb-6">Popular Routes</h4>
+            <ul className="space-y-4 text-slate-500 font-medium">
+              <li>Madanapalle to Tirupati</li>
+              <li>Sabarimala Pilgrimage</li>
+              <li>Ooty Hill Station Tour</li>
+              <li>Bangalore Airport Pickup</li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-white font-bold mb-6">Services</h4>
+            <h4 className="text-slate-900 font-bold mb-6">Get in Touch</h4>
             <ul className="space-y-4">
-              <li>Pilgrimage Tours</li>
-              <li>Sabarimala Special</li>
-              <li>Wedding Transport</li>
-              <li>Family Vacations</li>
-              <li>Corporate Travel</li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="text-white font-bold mb-6">Contact Us</h4>
-            <ul className="space-y-4 text-sm">
               <li className="flex items-start">
-                <span className="text-orange-500 mr-2">📍</span>
-                <span className="text-slate-400">{CONTACT_INFO.address}</span>
+                <span className="mr-3 mt-1">📍</span>
+                <span className="text-slate-500 font-medium text-sm leading-relaxed">{CONTACT_INFO.address}</span>
               </li>
               <li className="flex items-center">
-                <span className="text-orange-500 mr-2">📞</span>
-                <a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className="hover:text-white transition-colors">
+                <span className="mr-3">📞</span>
+                <a href={`tel:${CONTACT_INFO.phone}`} className="font-bold text-slate-900 hover:text-sky-600 transition-all">
                   {CONTACT_INFO.phone}
-                </a>
-              </li>
-              <li className="flex items-center">
-                <span className="text-orange-500 mr-2">✉️</span>
-                <a href={`mailto:${CONTACT_INFO.email}`} className="hover:text-white transition-colors">
-                  {CONTACT_INFO.email}
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Map Location Section */}
-        <div className="mb-16">
-          <h4 className="text-white font-bold mb-6">Visit Our Office in Madanapalle</h4>
-          <div className="w-full h-[350px] rounded-2xl overflow-hidden border border-white/10 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-700 shadow-2xl">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.7925717345242!2d78.50518749999999!3d13.5483125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb26544a4e0628d%3A0x2edba4d64a07e88a!2sSRI%20DURGA%20TOURS%20%26%20TRAVELS!5e0!3m2!1sen!2sin!4v1766133873207!5m2!1sen!2sin" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        <div className="mb-16 rounded-[2rem] overflow-hidden shadow-sm border border-slate-200 h-[350px]">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.7925717345242!2d78.50518749999999!3d13.5483125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb26544a4e0628d%3A0x2edba4d64a07e88a!2sSRI%20DURGA%20TOURS%20%26%20TRAVELS!5e0!3m2!1sen!2sin!4v1766133873207!5m2!1sen!2sin" 
+            width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" 
+          ></iframe>
         </div>
         
-        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <p>© {new Date().getFullYear()} Sri Durga Travels. All rights reserved.</p>
-          <div className="flex space-x-6">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms of Service</a>
-            <p>Crafted for Sri Durga Travels</p>
+        <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs font-semibold">
+          <p>© {new Date().getFullYear()} Sri Durga Travels. Excellence in Motion.</p>
+          <div className="flex space-x-8">
+            <a href="#" className="hover:text-slate-600">Privacy Policy</a>
+            <a href="#" className="hover:text-slate-600">Terms of Service</a>
           </div>
         </div>
       </div>

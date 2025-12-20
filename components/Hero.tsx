@@ -58,8 +58,10 @@ const Hero: React.FC = () => {
               <div className="h-10 w-px bg-slate-100 hidden sm:block"></div>
               
               <div className="flex items-center space-x-3 bg-slate-50 px-4 py-2 rounded-xl border border-slate-100">
-                <span className="text-lg font-bold text-slate-800">Go</span>
+                <span className="text-lg font-bold text-slate-800"></span>
                 <div className="flex flex-col">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5FqrS9OkN5XrA5_GXcN7OV-SoLIl0KPwoQ&s" className="w-5 h-5" alt="Google" />
+             
                   <div className="flex text-yellow-400 text-[8px]">★★★★★</div>
                   <span className="text-[7px] font-black text-slate-400 uppercase tracking-widest">Verified 5-Star</span>
                 </div>

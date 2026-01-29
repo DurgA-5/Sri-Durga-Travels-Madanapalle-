@@ -17,7 +17,7 @@ const fleetItems = [
   {
     title: 'Force Traveller',
     description: 'Perfect for group vacations (12-17 Seater) with ample luggage space.',
-    image: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy1y0k7GkO92gsRk-FlIxrq3xnUMpsx6hMBGPeBMb1y9z3H-YwUTvcVo8vjB1zmCNiMjx-dsoymhtVQhZS9lmjmDAHeMgLu9zfrgO7JFUSCjrd4NGVXbg6hr82GNVZux3g61mn7=w1080-h1080-n-k-no-nu',
+    image: 'https://lh3.googleusercontent.com/FMpRW_KpoMnb8KG6OiSweL5OahOOwPi6V-aepu5AONxeGcnw7GCfaLeIAVLg6m58g3V0Sb5cUuizAuax=s265-w265-h265',
     status: 'Best Seller'
   },
   {
